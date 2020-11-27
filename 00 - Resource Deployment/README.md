@@ -3,7 +3,7 @@
 Please make sure you fulfill the following pre-requisites before starting the workshop.
 
 1. Have your own Azure account
-2. Be familiar Azure Portal
+2. Install the [Az PowerShell Module](https://docs.microsoft.com/powershell/azure/install-az-ps)
 3. Make sure you can create Azure resources in your subscription (including paid resources).
 Note, if your organizations policy prohibits you from creating resources in the subscription, you can use a free subscription for the purposes of this lab.
 
@@ -12,7 +12,25 @@ Note, if your organizations policy prohibits you from creating resources in the 
 
 There are two options for deploying the resources to Azure for this solution accelerator:
 
-1. **Using a PowerShell Script**: `deploy.ps1`
+1. **Quick Solution Deployment with PowerShell Script**: `deploy.ps1`
+
+> If you're new to PowerShell, you can follow the instructions on [How to run PowerShell script file on Windows 10](https://www.windowscentral.com/how-create-and-run-your-first-powershell-script-file-windows-10) to help you get started.
+
+
+To run the [PowerShell script](./deploy.ps1):
+
+1-1. Open PowerShell and navigate to this folder.
+
+    ```cmd
+    cd "00 - Resource Deployment"
+    ```
+
+1-2. Run the following command:
+
+    ```cmd
+    ./deploy.ps1
+    ```
+1-3. After running the script, you'll be prompted to login and provide additional information.
 
     This script is the fastest way to get your solution up and running and will perform the following actions:
 
@@ -23,42 +41,9 @@ There are two options for deploying the resources to Azure for this solution acc
 
     If you choose to run this script, **you can skip the Search Index Creation** in the next folder.
 
-1. **Using an ARM Template**: `azuredeploy.json`
+    <img src="2020-11-27 12_14_13-Photos.png"/>
 
-    To deploy this ARM Template, simply press the button below:
-
-    > Please note that this will only deploy the resources. You'll then need to create a search index in the next step.
-
-    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fazure-search-knowledge-mining%2Fmaster%2Fazuredeploy.json" target="_blank">
-        <img src="https://azuredeploy.net/deploybutton.png"/>
-    </a>
-
-## Prerequisites
-
-1. Access to an Azure Subscription
-1. If you're running the PowerShell script, you'll also need to install the [Az PowerShell Module](https://docs.microsoft.com/powershell/azure/install-az-ps)
-
-## Running the PowerShell Script
-
-> If you're new to PowerShell, you can follow the instructions on [How to run PowerShell script file on Windows 10](https://www.windowscentral.com/how-create-and-run-your-first-powershell-script-file-windows-10) to help you get started.
-
-To run the [PowerShell script](./deploy.ps1):
-
-1. Open PowerShell and navigate to this folder.
-
-    ```cmd
-    cd "00 - Resource Deployment"
-    ```
-
-2. Run the following command:
-
-    ```cmd
-    ./deploy.ps1
-    ```
-
-3. After running the script, you'll be prompted to login and provide additional information.
-
-## Resources Deployed
+2. **Confirm Resources are Deployed in your Azure Subscription**
 
 The PowerShell script will provision the following resources to your Azure subscription:
 
