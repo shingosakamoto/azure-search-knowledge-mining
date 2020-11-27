@@ -1,3 +1,13 @@
+
+# Pre-Requisites for Knowledge Mining Workshop
+Please make sure you fulfill the following pre-requisites before starting the workshop.
+
+1. Have your own Azure account
+2. Be familiar Azure Portal
+3. Make sure you can create Azure resources in your subscription (including paid resources).
+Note, if your organizations policy prohibits you from creating resources in the subscription, you can use a free subscription for the purposes of this lab.
+
+
 # Resource Deployment
 
 There are two options for deploying the resources to Azure for this solution accelerator:
