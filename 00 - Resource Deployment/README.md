@@ -21,27 +21,28 @@ To run the [PowerShell script](./deploy.ps1):
 
 1-1. Open PowerShell and navigate to this folder.
 
-    ```cmd
-    cd "00 - Resource Deployment"
-    ```
+```
+cd "00 - Resource Deployment"
+```
 
 1-2. Run the following command:
 
-    ```cmd
-    ./deploy.ps1
-    ```
+```
+./deploy.ps1
+```
+    
 1-3. After running the script, you'll be prompted to login and provide additional information.
 
-    This script is the fastest way to get your solution up and running and will perform the following actions:
+This script is the fastest way to get your solution up and running and will perform the following actions:
 
-    1. Provision the required Azure resources
-    2. Upload sample data to your storage account
-    3. Create a search index
-    4. Print out the values and keys needed for the web app's *appsettings.json*
+1. Provision the required Azure resources
+2. Upload sample data to your storage account
+3. Create a search index
+4. Print out the values and keys needed for the web app's *appsettings.json*
 
-    If you choose to run this script, **you can skip the Search Index Creation** in the next folder.
+If you choose to run this script, **you can skip the Search Index Creation** in the next folder.
 
-    <img src="2020-11-27 12_14_13-Photos.png"/>
+<img src="2020-11-27 12_14_13-Photos.png"/>
 
 2. **Confirm Resources are Deployed in your Azure Subscription**
 
