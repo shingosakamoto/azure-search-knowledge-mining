@@ -12,7 +12,7 @@ Note, if your organizations policy prohibits you from creating resources in the 
 
 There are two options for deploying the resources to Azure for this solution accelerator:
 
-1. **Quick Solution Deployment with PowerShell Script**: `deploy.ps1`
+## **1. Quick Solution Deployment with PowerShell Script**: `deploy.ps1`
 
 > If you're new to PowerShell, you can follow the instructions on [How to run PowerShell script file on Windows 10](https://www.windowscentral.com/how-create-and-run-your-first-powershell-script-file-windows-10) to help you get started.
 
@@ -44,7 +44,7 @@ If you choose to run this script, **you can skip the Search Index Creation** in 
 
 <img src="2020-11-27 12_14_13-Photos.png"/>
 
-2. **Confirm Resources are Deployed in your Azure Subscription**
+## **2. Confirm Resources are Deployed in your Azure Subscription**
 
 The PowerShell script will provision the following resources to your Azure subscription:
 
