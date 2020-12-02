@@ -20,12 +20,9 @@ Open the Visual Studio Solution file (CognitiveSearch.Template.sln) from Visual 
 
 ![web user interface](../images/Web_UI_Template_Step1.png)
 
-Open the Solution Explorer in the Visual Studio
+Open the Solution Explorer in the Visual Studio and click "appsettings.json" for the next step
 
-![web user interface](../images/Web_UI_Template_Step2.png =250x369)
-
-
-## 1. Update appsettings.json
+## 2. Update appsettings.json
 
 To configure your web app to connect to your Azure services, simply update the *appsettings.json* file.
 
@@ -90,7 +87,7 @@ While some fields are optional, we recommend not removing them from *appsettings
 4. **GraphFacet** - The GraphFacet is used for generating the relationship graph. This can now be edited in the UI.
 5. **Customizable** - Determines if user is allowed to *customize* the web app. Customizations include uploading documents and changing the colors/logo of the web app. **OrganizationName**,  **OrganizationLogo**, and **OrganizationWebSiteUrl** are additional fields that also allow you to do light customization.
 
-## 2. Update SearchModel.cs
+## 3. Update SearchModel.cs
 
 At this point, your web app is configured and is ready to run. By default, all facets, tags, and fields will be used in the UI.
 
@@ -104,7 +101,7 @@ If you would like to further customize the UI, you can update the following fiel
 
 **ResultFields** - Defines which fields will be returned in the results view. Only fields that are used for the UI should be included here to reduce latency caused by larger documents. By default all fields are included.
 
-## 3. Add additional customization
+## 4. Add additional customization
 
 This template serves as a great baseline for a Cognitive Search solution, however, you may want to make additional updates depending on your use case.
 
@@ -121,3 +118,24 @@ Much of the UI is rendered dynamically by javascript. Some important files to kn
 2. **wwroot/js/details.js** - contains the code for rending the detail view once a result is selected
 
 3. **Search/DocumentSearchClient.cs** - contains the code for talking with Azure Cognitive Search's APIs. Setting breakpoints in this file is a great way to debug.
+
+## 5. Publish to Azure App Service
+
+5.1 In Solution Explorer, right-click the project node and choose **Publish** (or use the **Build > Publish** menu item).
+
+![Publish](../images/Web_UI_Template_Step4.png)
+
+5.2 If you have previously configured any publishing profiles, the **Publish** window appears. Select **New**.
+
+5.3 In the **Publish** window, select **Azure**.
+![Publish](../images/Web_UI_Template_Step5.png)
+
+5.4 Select **Azure App Service (Windows)** and **Next**.
+![Publish](../images/Web_UI_Template_Step6.png)
+
+5.5 Sign in with your Azure account, if necessary. Select your **Azure App Service** under the **resource group** you created by the script in the previous step. When ready, select **Finish**.
+![Publish](../images/Web_UI_Template_Step7.png)
+
+5.6 Select **Publish**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
+![Publish](../images/Web_UI_Template_Step8.png)
+
