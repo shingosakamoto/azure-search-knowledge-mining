@@ -40,17 +40,17 @@ If you choose to create your index via the Azure Portal, set your search field p
 
 Follow the steps and screenshots below to create your index.
 
-### 1.0 Navigate to you Search Service
+### 1. Navigate to you Search Service
 
 Start by navigating to your search service in the Azure Portal:
 
 ![screenshot](../images/createindex-step0.PNG)
 
-### 2.0 Select Import data
+### 2. Select Import data
 
 ![Navigate to search service](../images/createindex-step1.PNG)
 
-### 3.0 Import Data
+### 3. Import Data
 
 #### 3.1 Select Azure Blob Storage
 
@@ -62,7 +62,7 @@ Keep the defaults and use `Choose an existing connection` to connect to your sto
 
 ![screenshot](../images/createindex-step3.PNG)
 
-### 4.0 Add Cognitive Skills
+### 4. Add Cognitive Skills
 
 #### 4.1 Attach Cognitive Services
 
@@ -80,14 +80,15 @@ Select the enrichments you want to add. Please note that the `Extract personally
 
 ![screenshot](../images/createindex-step6.PNG)
 
-### 5.0 Customize target index
+### 5. Customize target index
 
 > **Note:** This step is essential to properly configuring your index. Make sure your index looks similar to the screenshot before proceeding to the next step.
 
 ![screenshot](../images/createindex-step7.PNG)
 
-### 6.0 Create an indexer
+### 6. Create an indexer
 
 ![screenshot](../images/createindex-step8.PNG)
 
-Congratulations! You should be all set to move onto the next folder.
+### 7. Next Step: Search Index Creation
+Click [02 - Web UI Template](https://github.com/shingosakamoto/azure-search-knowledge-mining/tree/master/02%20-%20Web%20UI%20Template) for the next step
