@@ -14,6 +14,17 @@ In just a few steps, you can configure this template UI to query your search ind
 
 1. Visual Studio 2019 or newer - [Download](https://visualstudio.microsoft.com/downloads/)
 
+## 1. Open the Solution
+
+Open the Visual Studio Solution file (CognitiveSearch.Template.sln) from Visual Studio 2019
+
+![web user interface](../images/Web UI Template Step 1.png)
+
+Open the Solution Explorer in the Visual Studio
+
+![web user interface](../images/Web UI Template Step 2.png)
+
+
 ## 1. Update appsettings.json
 
 To configure your web app to connect to your Azure services, simply update the *appsettings.json* file.
@@ -35,12 +46,12 @@ This file contains a mix of required and optional fields described below.
   "IsPathBase64Encoded": true,
 ```
 
-1. **SearchServiceName** - The name of your Azure Cognitive Search service
-2. **SearchApiKey** - The API Key for your Azure Cognitive Search service
-3. **SearchIndexName** - The name of your Azure Cognitive Search index
-4. **SearchIndexerName** - The name of your Azure Cognitive Search indexer
-5. **StorageAccountName** - The name of your Azure Blob Storage Account
-6. **StorageAccountKey** - The key for your Azure Blob Storage Account
+1. **SearchServiceName** - Azure Search service name
+2. **SearchApiKey** - Azure Search service API key
+3. **SearchIndexName** - Azure Search index name
+4. **SearchIndexerName** - Azure Search indexer name
+5. **StorageAccountName** - Azure Blob Storage Account
+6. **StorageAccountKey** - Azure Storage Account name
 7. **StorageContainerAddress** - The URL to the storage container where your documents are stored. This should be in the following format: *https://*storageaccountname*.blob.core.windows.net/*containername**
 8. **KeyField** - They key field for your search index. This should be set to the field specified as a key document Id in the index. By default this is *metadata_storage_path*.
 9. **IsPathBase64Encoded** - By default, metadata_storage_path is the key, and it gets base64 encoded so this is set to true by default. If your key is not encoded, set this to false.
