@@ -60,6 +60,9 @@ By default, this PowerShell script will provision a Basic Search service for you
 
 Depending on your custom skill development needs, additional Azure resources may be required.  See the README in the [03 - Data Science & Custom Skills](../03%20-%20Data%20Science%20and%20Custom%20Skills/README.md) folder for additional information.
 
+## ** 3. Next Step: Search Index Creation**
+Click [Search Index Creation](https://github.com/shingosakamoto/azure-search-knowledge-mining/tree/master/01%20-%20Search%20Index%20Creation)
+
 ## Notes
 
 We recommend building an initial prototype solution leveraging a representative subset of data to estimate the size of your final search index.  When you are ready to build your final solution, you will want to size and provision your resources to meet your estimated scale and performance needs.
