@@ -14,7 +14,11 @@ In just a few steps, you can configure this template UI to query your search ind
 
 1. Visual Studio 2019 or newer - [Download](https://visualstudio.microsoft.com/downloads/)
 
-## 1. Open the Solution
+## 0. Clone the git repo and Open the Solution
+
+```
+git clone https://github.com/shingosakamoto/azure-search-knowledge-mining.git
+```
 
 Open the Visual Studio Solution file (CognitiveSearch.Template.sln) from Visual Studio 2019
 
