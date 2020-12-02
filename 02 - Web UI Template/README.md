@@ -8,7 +8,7 @@ The Cognitive Search Template contains two projects:
 
 In just a few steps, you can configure this template UI to query your search index. This template will render a web page similar to the following:
 
-![web user interface](../images/WebUI.jpg)
+![web user interface](../images/Web UI Template Step 1.png)
 
 ## Prerequisites
 
