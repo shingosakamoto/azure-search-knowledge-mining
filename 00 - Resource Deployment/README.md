@@ -12,7 +12,8 @@ Note, if your organizations policy prohibits you from creating resources in the 
 
 There are two options for deploying the resources to Azure for this solution accelerator:
 
-## **1. Quick Solution Deployment with PowerShell Script**: `deploy.ps1`
+## **1. Quick Solution Deployment with PowerShell Script**: 
+`deploy.ps1`
 
 > If you're new to PowerShell, you can follow the instructions on [How to run PowerShell script file on Windows 10](https://www.windowscentral.com/how-create-and-run-your-first-powershell-script-file-windows-10) to help you get started.
 
@@ -60,8 +61,8 @@ By default, this PowerShell script will provision a Basic Search service for you
 
 Depending on your custom skill development needs, additional Azure resources may be required.  See the README in the [03 - Data Science & Custom Skills](../03%20-%20Data%20Science%20and%20Custom%20Skills/README.md) folder for additional information.
 
-## ** 3. Next Step: Search Index Creation**
-Click [Search Index Creation](https://github.com/shingosakamoto/azure-search-knowledge-mining/tree/master/01%20-%20Search%20Index%20Creation)
+## **3. Next Step: Search Index Creation**
+Click [01 - Search Index Creation](https://github.com/shingosakamoto/azure-search-knowledge-mining/tree/master/01%20-%20Search%20Index%20Creation) for the next step
 
 ## Notes
 
