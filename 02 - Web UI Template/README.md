@@ -22,7 +22,7 @@ Open the Visual Studio Solution file (CognitiveSearch.Template.sln) from Visual 
 
 Open the Solution Explorer in the Visual Studio
 
-![web user interface](../images/Web_UI_Template_Step2.png)
+![web user interface](../images/Web_UI_Template_Step2.png | width=75)
 
 
 ## 1. Update appsettings.json
